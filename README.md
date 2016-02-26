@@ -7,7 +7,8 @@ In this assessment your goal is to expand upon the rails assessment you did prev
 ## Requirements
 
  1. Must render one show page and one index page via jQuery and an Active Model Serialization JSON Backend.
- 2. Must respond to two different links or buttons without a page reload. This could be updating a record, making a new record, or whatever else you'd like. 
+ 2. Must use your Rails api to create a resource and render the respons without a page refresh.
+ 3. Must have at least one link that loads, or updates a resource without reloading the page.
 
 ## Instructions
 
