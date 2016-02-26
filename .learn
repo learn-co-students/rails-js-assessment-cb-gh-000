@@ -8,3 +8,4 @@ languages:
   - ruby
   - javascript
 resources: 0
+live_assessment: true
