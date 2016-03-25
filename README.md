@@ -7,7 +7,7 @@ In this assessment your goal is to expand upon the rails assessment you did prev
 ## Requirements
 
  1. Must render one show page and one index page via jQuery and an Active Model Serialization JSON Backend.
- 2. Must use your Rails api to create a resource and render the respons without a page refresh.
+ 2. Must use your Rails api to create a resource and render the response without a page refresh.
  3. Must have at least one link that loads, or updates a resource without reloading the page.
 
 ## Instructions
@@ -50,3 +50,5 @@ We should reach out to you soon to schedule a pairing process. If you don't hear
 - You won't be yelled at, belittled, or scolded
 - You won't be put on the spot without support
 - There's nothing you can do to instantly fail or blow it.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-js-assessment'>Rails App with a jQuery Front End</a> on Learn.co and start learning to code for free.</p>
