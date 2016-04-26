@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this assessment your goal is to expand upon the rails assessment you did previously. The goal is to add dynamic features that are possible only through jQuery and a JSON Api for your app. **Do not use `remote: true` in this application`
+In this assessment your goal is to expand upon the rails assessment you did previously. The goal is to add dynamic features that are possible only through jQuery and a JSON Api for your app. **Do not use `remote: true` in this application`**
 
 ## Requirements
 
