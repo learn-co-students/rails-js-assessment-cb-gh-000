@@ -18,7 +18,7 @@ In this assessment your goal is to expand upon the rails assessment you did prev
 2. Submit that repo to the assessment immediately.
 3. Build your app there. Make sure to commit early and commit often.
 4. Record at least a 30 min coding session. During the session, either think out loud or not. It's up to you. You don't need to submit it, but we may ask for it at a later time.
-5. Submit a video of how a user would interact with your working gem.
+5. Submit a video of how a user would interact with your working application.
 6. Submit the url to your github project
 7. Write a blog post about the project and process.
 
@@ -54,3 +54,5 @@ We should reach out to you soon to schedule a pairing process. If you don't hear
 - There's nothing you can do to instantly fail or blow it.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-js-assessment'>Rails App with a jQuery Front End</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/rails-js-assessment'>Rails App with a jQuery Front End</a> on Learn.co and start learning to code for free.</p>
