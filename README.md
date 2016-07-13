@@ -15,12 +15,14 @@ In this assessment your goal is to expand upon the rails assessment you did prev
 ## Instructions
 
 1. Make the changes to your existing Rails assessment repo.
-2. Submit that repo to the assessment immediately.
-3. Build your app there. Make sure to commit early and commit often.
-4. Record at least a 30 min coding session. During the session, either think out loud or not. It's up to you. You don't need to submit it, but we may ask for it at a later time.
-5. Submit a video of how a user would interact with your working application.
-6. Submit the url to your github project
-7. Write a blog post about the project and process.
+2. Add the spec-js.md file from this repo to the root directory of the project, commit it to Git and push it up to GitHub.
+3. Submit that repo to the assessment immediately.
+4. Build your app there. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable. **This is important and you'll be graded on this**.
+6. Record at least a 30 min coding session. During the session, either think out loud or not. It's up to you. You don't need to submit it, but we may ask for it at a later time.
+7. Submit a video of how a user would interact with your working application.
+8. Make sure to check each box in your spec.md (replace the space between the square braces with an x) and explain next to each one how you've met the requirement *before* you submit your project.
+9. Submit the url to your github project
+10. Write a blog post about the project and process.
 
 
 ## If you're a Learn-Verified Premium student:
