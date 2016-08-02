@@ -9,7 +9,7 @@ In this assessment your goal is to expand upon the rails assessment you did prev
  1. Must render at least one index page via jQuery and an Active Model Serialization JSON Backend.
  2. Must render at least one show page via jQuery and an Active Model Serialization JSON Backend.
  3. The rails API must reveal at least one `has-many` relationship in the JSON that is then rendered to the page.
- 4. Must use your Rails API to create a resource and render the response without a page refresh.
+ 4. Must use your Rails API and a form to create a resource and render the response without a page refresh.
  6. Must translate the JSON responses into Javascript Model Objects. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
 
 ## Instructions
