@@ -56,6 +56,12 @@ We should reach out to you soon to schedule a pairing process. If you don't hear
 - You won't be put on the spot without support
 - There's nothing you can do to instantly fail or blow it.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-js-assessment'>Rails App with a jQuery Front End</a> on Learn.co and start learning to code for free.</p>
+## Video Review Resources- AJAX and Rail s
+
+* [Loading Comments via GET AJAX](https://github.com/learn-co-curriculum/rails-video-review-loading-comments-via-get-ajax)
+* [Rails and AJAX, Submitting a Form](https://github.com/learn-co-curriculum/rails-video-review-rails-and-ajax-submitting-a-form)
+* [Adding Form Fields via AJAX](https://github.com/learn-co-curriculum/rails-video-review-adding-form-fields-via-ajax)
+* [Handlebars and JS Prototypes](https://github.com/learn-co-curriculum/rails-video-review-handlebars-and-js-prototypes) 
+
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-js-assessment'>Rails App with a jQuery Front End</a> on Learn.co and start learning to code for free.</p>
