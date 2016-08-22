@@ -58,10 +58,10 @@ We should reach out to you soon to schedule a pairing process. If you don't hear
 
 ## Video Review Resources- AJAX and Rail s
 
-* [Loading Comments via GET AJAX](https://github.com/learn-co-curriculum/rails-video-review-loading-comments-via-get-ajax)
-* [Rails and AJAX, Submitting a Form](https://github.com/learn-co-curriculum/rails-video-review-rails-and-ajax-submitting-a-form)
-* [Adding Form Fields via AJAX](https://github.com/learn-co-curriculum/rails-video-review-adding-form-fields-via-ajax)
-* [Handlebars and JS Prototypes](https://github.com/learn-co-curriculum/rails-video-review-handlebars-and-js-prototypes) 
+* [Loading Comments via GET AJAX](https://www.youtube.com/watch?v=E8TJmwW5ayQ)
+* [Rails and AJAX, Submitting a Form](https://www.youtube.com/watch?v=XxzayZma5Ew)
+* [Adding Form Fields via AJAX](https://www.youtube.com/watch?v=BcGtDkydAug)
+* [Handlebars and JS Prototypes](https://www.youtube.com/watch?v=PT_C2211_QE) 
 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-js-assessment'>Rails App with a jQuery Front End</a> on Learn.co and start learning to code for free.</p>
