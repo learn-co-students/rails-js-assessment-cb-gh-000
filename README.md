@@ -29,7 +29,7 @@ In this assessment your goal is to expand upon the rails assessment you did prev
 9. Submit the url to your github project
 10. Write a blog post about the project and process.
 
-Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please *don’t* use the Ask New Question feature. Rather than working with Learn Experts, please reach out to the Learn Instructor responsible for this section instead - Mendel / mendel@flatironschool.com / learn-co slack: mendel.
+Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please *don’t* use the Ask New Question feature. Rather than working with Learn Experts, please reach out to the Learn Instructor responsible for this section instead - Cernan / cernan@flatironschool.com / learn-co slack: cernan.
 
 ## If you're a Learn-Verified Premium student:
 
