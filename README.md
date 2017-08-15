@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this assessment your goal is to expand upon the rails assessment you did previously. The goal is to add dynamic features that are possible only through jQuery and a JSON Api for your app. **Do not use `remote: true`  in this application`**
+In this assessment your goal is to expand upon the rails assessment you did previously. The goal is to add dynamic features that are possible only through jQuery and a JSON API for your app. **Do not use `remote: true`  in this application.**
 
 ## Requirements
 
@@ -12,7 +12,7 @@ In this assessment your goal is to expand upon the rails assessment you did prev
 
  3. The rails API must reveal at least one `has-many` relationship in the JSON that is then rendered to the page. For example if each of those posts has many comments, you could render those comments as well on that show page.
 
- 4. Must use your Rails API and a form to create a resource and render the response without a page refresh. For example, a user might be able to add a comment to a post, and the comment would be serialized, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals, can help out a lot with this).
+ 4. Must use your Rails API and a form to create a resource and render the response without a page refresh. For example, a user might be able to add a comment to a post, and the comment would be serialized, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals can help out a lot with this).
 
  6. Must translate the JSON responses into Javascript Model Objects. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
  Borrowing from the previous example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
@@ -52,7 +52,7 @@ Your instructor wants you to succeed, but starting at the Rails portfolio projec
 
 Given this, don't be surprised if the instructor doesn't necessarily take the time to "teach" you anything you get wrong. As a rule of thumb, if the instructor has to teach you something, you didn't pass the project review! However, if you feel there was anything you didn't understand or would like to discuss, let the instructor know at the end of the session and they can suggest another instructor who will be able to pair with you on that to help you with your understanding before you retake the project review.
 
-## Video Review Resources- AJAX and Rail s
+## Video Review Resources- AJAX and Rails
 
 * [Loading Comments via GET AJAX](https://www.youtube.com/watch?v=E8TJmwW5ayQ)
 * [Rails and AJAX, Submitting a Form](https://www.youtube.com/watch?v=XxzayZma5Ew)
