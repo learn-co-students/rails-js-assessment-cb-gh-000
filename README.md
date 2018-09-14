@@ -109,11 +109,11 @@ For project support, you can reach out to [your Section Lead](http://help.learn.
 
 ## <a id="resources">Resources</a>
 
-- [Using Active Model Serializer](https://learn.co/tracks/full-stack-web-development-v6/rails-and-JavaScript/building-apis/using-active-model-serializer)
+- [Using Active Model Serializer](https://learn.co/tracks/full-stack-web-development-v6/rails-and-javascript/building-apis/using-active-model-serializer)
 - [Rails Guides - Using Turbolinks with JQuery](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#turbolinks)
 - [MDN Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [MDN Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-- [JS Prototypes](https://learn.co/tracks/full-stack-web-development-v6/JavaScript/object-oriented-js/prototypes)
+- [MDN Classes](https://developer.mozilla.org/en-US/docs/Web/javascript/Reference/Classes)
+- [JS Prototypes](https://learn.co/tracks/full-stack-web-development-v6/javascript/object-oriented-js/prototypes)
 - [Video - JS debugging](https://instruction.learn.co/student/video_lectures#/220)
 - [Video - Adding JavaScript to a sample Rails App](https://instruction.learn.co/student/video_lectures#/197)
 
