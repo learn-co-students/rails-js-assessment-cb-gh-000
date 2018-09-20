@@ -64,12 +64,11 @@ What won't happen:
    > Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable.
 3. Documentation:
    While working on your project record a 30-minute coding session with your favorite screen capture tool. During the session, either think out loud or not. It's up to you. You don't need to submit the video, but we may ask for it at a later time.
-4. Submission:
-   - Prepare a video demo (narration helps!) describing how a user would interact with your Rails with JavaScript app.
-     > Make sure to highlight the dynamic features that you added to your Rails application. Some common video recording tools used are [Zoom](https://zoom.us/), [Quicktime](https://www.apple.com/quicktime/download/), and [Nimbus](https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?hl=en). After you create your demo, publish it on a service like [YouTube](https://www.youtube.com/) or [Google Drive](https://www.google.com/drive/).
-   - Make sure to check each box in the spec.md (replace the space between the square braces with an x), double checking that you have met all the requirements.
-   - Write a blog post about the project and process.
-   - On Learn, submit links to the GitHub repository for your app, your video demo (not your 30-minute coding session), and your blog post each to the corresponding textbox in the right rail, and hit "I'm done" to wrap it up.
+   > Some common video recording tools used are [Zoom](https://zoom.us/), [Quicktime](https://www.apple.com/quicktime/download/), and [Nimbus](https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?hl=en).
+4. Before Submitting: Prepare a video demo (narration helps!) describing how a user would interact with your Rails with JavaScript app.
+   > Make sure to highlight the dynamic features that you added to your Rails application. After you create your demo, publish it on a service like [YouTube](https://www.youtube.com/) or [Google Drive](https://www.google.com/drive/).
+5. Make sure to write a blog post about your project and the process.
+6. To Submit: On Learn, submit links to the GitHub repository for your app, your video demo (not your 30-minute coding session), and your blog post each to the corresponding textbox in the right rail, and hit "I'm done" to wrap it up.
 
 ## <a id="support">Project Support</a>
 
