@@ -1,84 +1,121 @@
-# Build a Rails App with a jQuery Front End
+# Build a Rails App with a JavaScript Front End
 
 ## Overview
 
-In this assessment your goal is to expand upon the rails assessment you did previously. The goal is to add dynamic features that are possible only through jQuery and a JSON API for your app. **Do not use `remote: true`  in this application.**
+- [What to Expect from the Project Review](#expectations)
+- [Project Requirements](#requirements)
+- [Instructions](#instructions)
+- [Support](#support)
+- [Practicing for Success on Learn](#success)
+- [Resources](#resources)
 
-## Requirements
+In this assessment you are going to expand upon your previous Rails project assessment. The goal is to add dynamic features to your previous Rails application that are possible only through JavaScript and a JSON API.
 
- 1. Must render at least one index page (index resource - 'list of things') via jQuery and an Active Model Serialization JSON Backend. For example, in a blog domain with users and posts, you might display the index of the users posts on the users show page, fetching the posts via an AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
+**Do not use `remote: true` in this application.**
 
- 2. Must render at least one show page (show resource - 'one specific thing') via jQuery and an Active Model Serialization JSON Backend. For example, in the blog domain, you might allow a user to sift through the posts by clicking a 'Next' button on the posts show page, with the next post being fetched and rendered via JQuery/AJAX.
+## <a id="expectations">What to expect from the Project Review</a>
 
- 3. The rails API must reveal at least one `has-many` relationship in the JSON that is then rendered to the page. For example if each of those posts has many comments, you could render those comments as well on that show page.
+Project reviews are focused on preparing you for [technical interviews](https://www.brightnetwork.co.uk/career-path-guides/technology-it-software-development/five-ways-stand-out-your-technology/what-expect-technical-interview/). Treat project reviews as if they were technical interviews in both attitude and technical presentation.
 
- 4. Must use your Rails API and a form to create a resource and render the response without a page refresh. For example, a user might be able to add a comment to a post, and the comment would be serialized, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals can help out a lot with this).
+During your project review, be prepared to:
 
- 6. Must translate the JSON responses into Javascript Model Objects. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
- Borrowing from the previous example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
+1. Explain your code from execution point to exit point. Use the best technical vocabulary you can. 15 minutes
+2. Live code. This could be refactoring, adding a new feature, or both. 20 minutes
+3. You will also be asked questions that test your knowledge of JavaScript fundamentals. 10 minutes
 
-## Instructions
+If any requirements are missing or if significant gaps in understanding are found, be prepared to do one or all of the following:
 
-1. Make the changes to your existing Rails assessment repo.
-2. Add the spec-js.md file from this repo to the root directory of the project, commit it to Git and push it up to GitHub.
-3. Submit that repo to the assessment immediately.
-4. Build your app there. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable. **This is important and you'll be graded on this**.
-5. [Fill out this checklist.](https://docs.google.com/forms/d/1lHZBZVecIvIBZsiHJ-PHWCzgdzRIh1ojxTnEVCWcA2E/)
-6. Record at least a 30 min coding session. During the session, either think out loud or not. It's up to you. You don't need to submit it, but we may ask for it at a later time.
-7. Submit a video of how a user would interact with your working application.
-8. Make sure to check each box in your spec.md (replace the space between the square braces with an x) and explain next to each one how you've met the requirement *before* you submit your project.
-9. Submit the url to your github project
-10. Write a blog post about the project and process.
+- Submit an improved version
+- Meet again for another Project Review
 
-Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
+What won't happen:
 
-## If you're a Learn-Verified Premium student:
+- You won't be yelled at, belittled, or scolded
+- You won't be put on the spot without support
+- There's nothing you can do to instantly fail or blow it
 
-We should reach out to you soon to schedule a review. If you don't hear from us in 48 hours after submission, reach out to us on Slack!
+## <a id="requirements">Project Requirements</a>
 
-### Be Prepared to:
+1.  Must render at least one index page (index resource - 'list of things') via JavaScript and an Active Model Serialization JSON Backend.
 
-1. Explain your code from execution point to exit point. We're making sure you wrote it and understand how it works, nothing else. 5-10 minutes
-2. Write tests together. You'll be responsible for making tests pass, not writing test code. However, you'll be expected to provide expected return data of methods. You'll need to know how your code should work, not rspec or testing. 20-30 minutes
-3. Refactor code. 20-30 minutes
-4. Extend the application with a new feature, more data, a different domain etc. 20-30 minutes
-5. Submit an improved version.
-6. Write a README.md.
+    > For example: in a blog domain with users and posts, you might display the index of the user's posts on the users show page, fetching the posts via a AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
 
-### What to expect from the instructor review
+1.  Must render at least one show page (show resource - 'one specific thing') via JavaScript and an Active Model Serialization JSON Backend.
 
-Project reviews are focused on preparing you for technical interviews. Treat project reviews as if they were technical interviews, in both attitude and technical presentation. Your instructor will deliberately give you a more challenging project review, to give you a better sense of the kind of experience and pressure that you experience during a real technical interview. Most technical interviewers really do want you to succeed. We'll work with you as many times as necessary to get you through the review if you don't nail it the first time (which is quite common and completely OK). However, we will potentially give you a hard time, cut you off, push you on your use of vocabulary and/or your coding choices. We want to try to give you a sense of what a coding interview might be like, so you build the confidence to describe your app and to write code even in a higher pressure, slightly more adversarial environment.
+    > Borrowing from the previous blog domain example, you might allow a user to sift through the posts by clicking a 'Next' button on the posts show page, with the next post being fetched via AJAX and rendered through JavaScript.
+
+1.  Your Rails application must dynamically render on the page at least one 'has-many' relationship through JSON using JavaScript.
+
+    > In the previous blog domain example, if each of the posts has many comments, you could render those comments as well on that post's show page.
+
+1.  Must use your Rails application and JavaScript to render a form for creating a resource that submits dynamically.
+
+    > In the blog domain example, a user might be able to add a comment to a post, and the comment would be serialized, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals can help out a lot with this).
+
+1.  Must translate the JSON responses into JavaScript Model Objects using either ES6 class or constructor syntax. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
+    > Borrowing from the blog domain example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
+
+## <a id="instructions">Instructions</a>
+
+1. Download the Rails with JavaScript spec file from this link: [spec-js](http://bit.ly/2CLzN4T)
+   - This will open a Google doc, clicking on the File tab and then on the 'make copy' option allows you to store an editable copy.
+   - This spec file is a checklist to be used to check off as you complete the requirements.
+2. Update your Rails application to include dynamic features use JavaScript.
+   > Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable.
+3. Documentation:
+   While working on your project record a 30-minute coding session with your favorite screen capture tool. During the session, either think out loud or not. It's up to you. You don't need to submit the video, but we may ask for it at a later time.
+4. Submission:
+   - Prepare a video demo (narration helps!) describing how a user would interact with your Rails with JavaScript app.
+     > Make sure to highlight the dynamic features that you added to your Rails application. Some common video recording tools used are [Zoom](https://zoom.us/), [Quicktime](https://www.apple.com/quicktime/download/), and [Nimbus](https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?hl=en). After you create your demo, publish it on a service like [YouTube](https://www.youtube.com/) or [Google Drive](https://www.google.com/drive/).
+   - Make sure to check each box in the spec.md (replace the space between the square braces with an x), double checking that you have met all the requirements.
+   - Write a blog post about the project and process.
+   - On Learn, submit links to the GitHub repository for your app, your video demo (not your 30-minute coding session), and your blog post each to the corresponding textbox in the right rail, and hit "I'm done" to wrap it up.
+
+## <a id="support">Project Support</a>
+
+Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please **don’t** use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
+
+You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads) and/or schedule up to four 30-minute [Project Support sessions](https://theflatironschool.typeform.com/to/B9BrgH).
+
+## <a id="success">Practicing for Success on Learn</a>
 
 #### Be scrappy.
-- If you make a mistake, correct yourself. 
-- Think on your feet. We will expect you to be able to explain development concepts to us, as well as expanding on concepts that you have already implemented, but you’ll also have the opportunity to look things up while you're live coding.
-- Explain the details.
+
+- If you make a mistake, correct yourself! We all make mistakes, I promise.
+- Think on your feet. Feel free to look things up while you're pairing with us. You'll be asked to expand on concepts you implemented and you will be pushed to the edge of your knowledge.
+- Explain the details. We're curious!
+- Don’t worry if your code isn’t perfect the first time - focus on getting something working, then refactoring to improve it.
 
 #### Make no little plans.
-- Approach live coding with a constructive attitude. You might feel nervous or uncertain, but as long as you are familiar with the section material you should be able to reason your way to a solution.
-- Be proud of your project and your code, and show confidence in it. 
+
+- You're going to learn a ton. We will give pointers and show you ways to improve your code. This isn't telling you that your code is wrong, it's simply us teaching. Whatever you don't quite understand will be explained.
+- Be proud of your project and your code, and show confidence in it.
 
 #### Radiate positivity.
-- Present yourself and your project in the best way possible. 
-- Be open to feedback, both positive and constructive. 
-- If the instructor asks you to complete additional features, or you missed a project requirement, be sure to ask questions in a positive manner without becoming argumentative. Learning to become a developer is complex and challenging, and it’s our job to find the holes in your knowledge and help you fill them. This is to help you become a better developer, not to delay your progress in the program.
+
+- Present yourself and your project in the best way possible.
+- Be open to feedback, both positive and constructive.
+- Remember, the interviewer is a person too. Be nice to them!
 
 #### Work Together.
-- Our goal is to give you the most thorough technical interview possible in the time allocated. This will include live coding where the instructor might give you one or two pointers, but will for the most part sit back and watch you code.
-- Ask clarification questions when you need them. Asking for more details is always ok.
+
+- Trust yourself.
+- Trust us - our goal is to help you be successful in achieving your goals.
+- We understand that this process can be stressful. We’re here to help you through.
 
 #### Pursue mastery.
-- Use the best technical vocabulary you can. You will be expected to present yourself as a competent Rails and Javascript developer.
-- Curiosity and willingness to learn are hugely valued in our industry. If there are things you don’t understand, then ask questions at the end of the review for more information. Your instructor will be able to point you to the appropriate section lead or technical coach for more information.
-- Pretend you’re interviewing for a job as a Rails and Javascript developer. We’re looking for competent, passionate people who are excited to learn, build, and grow. You won’t be expected to be an expert, but people who will be good to work with.
 
+- Use the best technical vocabulary you can. We’ll help you with the words you can’t remember, or if you’re unsure about how something is pronounced.
+- Ask questions! Curiosity and willingness to learn are hugely valued in our industry. If you haven’t heard of something, that’s okay - use this opportunity to learn about it!
 
-## Video Review Resources- AJAX and Rails
+## <a id="resources">Resources</a>
 
-* [Loading Comments via GET AJAX](https://www.youtube.com/watch?v=E8TJmwW5ayQ)
-* [Rails and AJAX, Submitting a Form](https://www.youtube.com/watch?v=XxzayZma5Ew)
-* [Adding Form Fields via AJAX](https://www.youtube.com/watch?v=BcGtDkydAug)
-* [Handlebars and JS Prototypes](https://www.youtube.com/watch?v=PT_C2211_QE)
-
+- [Using Active Model Serializer](https://learn.co/tracks/full-stack-web-development-v6/rails-and-javascript/building-apis/using-active-model-serializer)
+- [Rails Guides - Using Turbolinks with JQuery](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#turbolinks)
+- [MDN Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [MDN Classes](https://developer.mozilla.org/en-US/docs/Web/javascript/Reference/Classes)
+- [JS Prototypes](https://learn.co/tracks/full-stack-web-development-v6/javascript/object-oriented-js/prototypes)
+- [Video - JS debugging](https://instruction.learn.co/student/video_lectures#/220)
+- [Video - Adding JavaScript to a sample Rails App](https://instruction.learn.co/student/video_lectures#/197)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-js-assessment'>Rails App with a jQuery Front End</a> on Learn.co and start learning to code for free.</p>
