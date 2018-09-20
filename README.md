@@ -9,13 +9,13 @@
 - [Practicing for Success on Learn](#success)
 - [Resources](#resources)
 
-In this assessment you are going to expand upon your previous rails project assessment. The goal is to add dynamic features to your previous rails application that are possible only through JavaScript and a JSON API.
+In this assessment you are going to expand upon your previous Rails project assessment. The goal is to add dynamic features to your previous Rails application that are possible only through JavaScript and a JSON API.
 
 **Do not use `remote: true` in this application.**
 
 ## <a id="expectations">What to expect from the Project Review</a>
 
-Project reviews are focused on preparing you for [technical interviews](https://www.brightnetwork.co.uk/career-path-guides/technology-it-software-development/five-ways-stand-out-your-technology/what-expect-technical-interview/). Treat project reviews as if they were technical interviews, in both attitude and technical presentation.
+Project reviews are focused on preparing you for [technical interviews](https://www.brightnetwork.co.uk/career-path-guides/technology-it-software-development/five-ways-stand-out-your-technology/what-expect-technical-interview/). Treat project reviews as if they were technical interviews in both attitude and technical presentation.
 
 During your project review, be prepared to:
 
@@ -38,7 +38,7 @@ What won't happen:
 
 1.  Must render at least one index page (index resource - 'list of things') via JavaScript and an Active Model Serialization JSON Backend.
 
-    > For example, in a blog domain with users and posts, you might display the index of the users posts on the users show page, fetching the posts via a AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
+    > For example: in a blog domain with users and posts, you might display the index of the user's posts on the users show page, fetching the posts via a AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
 
 1.  Must render at least one show page (show resource - 'one specific thing') via JavaScript and an Active Model Serialization JSON Backend.
 
@@ -58,7 +58,7 @@ What won't happen:
 ## <a id="instructions">Instructions</a>
 
 1. Download the Rails with JavaScript spec file from this link: [spec-js](http://bit.ly/2CLzN4T)
-   - This will open a google doc, clicking on the File tab and then on the 'make copy' option allows you to store an editable copy.
+   - This will open a Google doc, clicking on the File tab and then on the 'make copy' option allows you to store an editable copy.
    - This spec file is a checklist to be used to check off as you complete the requirements.
 2. Update your Rails application to include dynamic features use JavaScript.
    > Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable.
@@ -73,7 +73,7 @@ What won't happen:
 
 ## <a id="support">Project Support</a>
 
-Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
+Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please **don’t** use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
 
 You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads) and/or schedule up to four 30-minute [Project Support sessions](https://theflatironschool.typeform.com/to/B9BrgH).
 
