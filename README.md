@@ -9,10 +9,6 @@
 - [Practicing for Success on Learn](#success)
 - [Resources](#resources)
 
-In this assessment you are going to expand upon your previous rails project assessment. The goal is to add dynamic features to your previous rails application that are possible only through JavaScript and a JSON API.
-
-**Do not use `remote: true` in this application.**
-
 ## <a id="expectations">What to expect from the Project Review</a>
 
 Project reviews are focused on preparing you for [technical interviews](https://www.brightnetwork.co.uk/career-path-guides/technology-it-software-development/five-ways-stand-out-your-technology/what-expect-technical-interview/). Treat project reviews as if they were technical interviews, in both attitude and technical presentation.
@@ -36,6 +32,14 @@ What won't happen:
 
 ## <a id="requirements">Project Requirements</a>
 
+In this assessment you are going to expand upon your previous rails project assessment. The goal is to add dynamic features to your previous rails application that are possible only through JavaScript and a JSON API.
+
+**Do not use `remote: true` in this application.**
+
+1.  Must translate JSON responses from your Rails app into JavaScript Model Objects using either ES6 class or constructor syntax. The Model Objects must have at least one method on the prototype.(Formatters work really well for this.)
+
+    > Take a blog domain example and creating a new Post, instead of plainly taking the JSON response of the newly created Post from the rails app and appending it to the DOM, you would instead create a Post prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
+
 1.  Must render at least one index page (index resource - 'list of things') via JavaScript and an Active Model Serialization JSON Backend.
 
     > For example, in a blog domain with users and posts, you might display the index of the users posts on the users show page, fetching the posts via a AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
@@ -48,12 +52,9 @@ What won't happen:
 
     > In the previous blog domain example, if each of the posts has many comments, you could render those comments as well on that post's show page.
 
-1.  Must use your Rails application and JavaScript to render a form for creating a resource that submits dynamically.
+1.  Must use your Rails application to render a form for creating a resource that is submitted dynamically through JavaScript.
 
     > In the blog domain example, a user might be able to add a comment to a post, and the comment would be serialized, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals can help out a lot with this).
-
-1.  Must translate the JSON responses into JavaScript Model Objects using either ES6 class or constructor syntax. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
-    > Borrowing from the blog domain example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
 
 ## <a id="instructions">Instructions</a>
 
