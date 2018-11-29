@@ -52,7 +52,7 @@ In this assessment you are going to expand upon your previous rails project asse
 
     > In the previous blog domain example, if each of the posts has many comments, you could render those comments as well on that post's show page.
 
-1.  Must use your Rails application to render a form for creating a resource that is submitted dynamically through JavaScript.
+1.  Must use your Rails application to render a form for creating a resource that is submitted dynamically and displayed through JavaScript and JSON without a page refresh.
 
     > In the blog domain example, a user might be able to add a comment to a post, and the comment would be serialized, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals can help out a lot with this).
 
