@@ -70,12 +70,6 @@ What won't happen:
 5. Make sure to write a blog post about your project and the process.
 6. To Submit: On Learn, submit links to the GitHub repository for your app, your video demo (not your 30-minute coding session), and your blog post each to the corresponding textbox in the right, and hit "I'm done" to wrap it up.
 
-## <a id="support">Project Support</a>
-
-Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please **don’t** use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
-
-You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads) and/or schedule up to four 30-minute [Project Support sessions](https://theflatironschool.typeform.com/to/B9BrgH).
-
 ## <a id="success">Practicing for Success on Learn</a>
 
 #### Be scrappy.
