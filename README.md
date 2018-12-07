@@ -36,7 +36,7 @@ In this assessment you are going to expand upon your previous Rails project asse
 
 **Do not use `remote: true` in this application.**
 
-1.  Must translate JSON responses from your Rails app into JavaScript Model Objects using either ES6 class or constructor syntax. The Model Objects must have at least one method on the prototype.(Formatters work really well for this.)
+1.  Must translate JSON responses from your Rails app into JavaScript Model Objects using either ES6 class or constructor syntax. The Model Objects must have at least one method on the prototype. (Formatters work really well for this.)
 
     > Take a blog domain example and creating a new Post, instead of plainly taking the JSON response of the newly created Post from the Rails app and appending it to the DOM, you would instead create a Post prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
 
@@ -48,7 +48,7 @@ In this assessment you are going to expand upon your previous Rails project asse
 
     > Borrowing from the previous blog domain example, you might allow a user to sift through the posts by clicking a 'Next' button on the posts show page, with the next post being fetched via AJAX and rendered through JavaScript.
 
-1.  Your Rails application must dynamically render on the page at least one 'has-many' relationship through JSON using JavaScript.
+1.  Your Rails application must dynamically render on the page at least one serialized 'has-many' relationship through JSON using JavaScript.
 
     > In the previous blog domain example, if each of the posts has many comments, you could render those comments as well on that post's show page.
 
