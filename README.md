@@ -32,13 +32,13 @@ What won't happen:
 
 ## <a id="requirements">Project Requirements</a>
 
-In this assessment you are going to expand upon your previous rails project assessment. The goal is to add dynamic features to your previous rails application that are possible only through JavaScript and a JSON API.
+In this assessment you are going to expand upon your previous Rails project assessment. The goal is to add dynamic features to your previous Rails application that are possible only through JavaScript and a JSON API.
 
 **Do not use `remote: true` in this application.**
 
 1.  Must translate JSON responses from your Rails app into JavaScript Model Objects using either ES6 class or constructor syntax. The Model Objects must have at least one method on the prototype.(Formatters work really well for this.)
 
-    > Take a blog domain example and creating a new Post, instead of plainly taking the JSON response of the newly created Post from the rails app and appending it to the DOM, you would instead create a Post prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
+    > Take a blog domain example and creating a new Post, instead of plainly taking the JSON response of the newly created Post from the Rails app and appending it to the DOM, you would instead create a Post prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
 
 1.  Must render at least one index page (index resource - 'list of things') via JavaScript and an Active Model Serialization JSON Backend.
 
