@@ -45,10 +45,10 @@ In this assessment you are going to expand upon your previous Rails project asse
     > For example, in a blog domain with users and posts, you might display the index of the users posts on the users show page, fetching the posts via a AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
 
 1.  Must render at least one show page (show resource - 'one specific thing') via JavaScript and an Active Model Serialization JSON Backend.
+    
+    > For example, in the blog domain, you might allow a user to view just one post at a time, using AJAX to fetch the post JSON and render it through JavaScript onto the page.
 
-    > Borrowing from the previous blog domain example, you might allow a user to sift through the posts by clicking a 'Next' button on the posts show page, with the next post being fetched via AJAX and rendered through JavaScript.
-
-1.  Your Rails application must dynamically render on the page at least one serialized 'has-many' relationship through JSON using JavaScript.
+1.  Your Rails application must dynamically render on the page at least one serialized 'has_many' relationship through JSON using JavaScript.
 
     > In the previous blog domain example, if each of the posts has many comments, you could render those comments as well on that post's show page.
 
