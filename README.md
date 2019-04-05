@@ -9,9 +9,13 @@
 - [Practicing for Success on Learn](#success)
 - [Resources](#resources)
 
+In this assessment you are going to expand upon your previous Rails project assessment. The goal is to add dynamic features to your previous Rails application that are possible only through JavaScript and a JSON API.
+
+**Do not use `remote: true` in this application.**
+
 ## <a id="expectations">What to expect from the Project Review</a>
 
-Project reviews are focused on preparing you for [technical interviews](https://www.brightnetwork.co.uk/career-path-guides/technology-it-software-development/five-ways-stand-out-your-technology/what-expect-technical-interview/). Treat project reviews as if they were technical interviews, in both attitude and technical presentation.
+Project reviews are focused on preparing you for [technical interviews](https://www.brightnetwork.co.uk/career-path-guides/technology-it-software-development/five-ways-stand-out-your-technology/what-expect-technical-interview/). Treat project reviews as if they were technical interviews in both attitude and technical presentation.
 
 During your project review, be prepared to:
 
@@ -42,7 +46,7 @@ In this assessment you are going to expand upon your previous Rails project asse
 
 1.  Must render at least one index page (index resource - 'list of things') via JavaScript and an Active Model Serialization JSON Backend.
 
-    > For example, in a blog domain with users and posts, you might display the index of the users posts on the users show page, fetching the posts via a AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
+    > For example: in a blog domain with users and posts, you might display the index of the user's posts on the users show page, fetching the posts via a AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
 
 1.  Must render at least one show page (show resource - 'one specific thing') via JavaScript and an Active Model Serialization JSON Backend.
     
@@ -69,6 +73,7 @@ In this assessment you are going to expand upon your previous Rails project asse
 4. Before Submitting: Prepare a video demo (narration helps!) describing how a user would interact with your Rails with JavaScript app.
    > Make sure to highlight the dynamic features that you added to your Rails application. After you create your demo, publish it on a service like [YouTube](https://www.youtube.com/) or [Google Drive](https://www.google.com/drive/).
 5. Make sure to write a blog post about your project and the process.
+
 6. To Submit: On Learn, submit links to the GitHub repository for your app, your video demo (not your 30-minute coding session), and your blog post each to the corresponding textbox in the right rail, and hit "I'm done" to wrap it up.
 
 ## <a id="support">Project Support</a>
