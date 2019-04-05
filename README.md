@@ -46,7 +46,7 @@ In this assessment you are going to expand upon your previous Rails project asse
 
 1.  Must render at least one show page (show resource - 'one specific thing') via JavaScript and an Active Model Serialization JSON Backend.
     
-    > For example, in the blog domain, you might allow a user to view just one post at a time, using AJAX to fetch the post JSON and render it through JavaScript onto the page.
+    > For example, in the blog domain, you might allow a user to view a post, using AJAX to fetch the post JSON and render it through JavaScript onto the page.
 
 1.  Your Rails application must dynamically render on the page at least one serialized 'has_many' relationship through JSON using JavaScript.
 
