@@ -36,24 +36,29 @@ What won't happen:
 
 ## <a id="requirements">Project Requirements</a>
 
+In this assessment you are going to expand upon your previous Rails project assessment. The goal is to add dynamic features to your previous Rails application that are possible only through JavaScript and a JSON API.
+
+**Do not use `remote: true` in this application.**
+
+1.  Must translate JSON responses from your Rails app into JavaScript Model Objects using either ES6 class or constructor syntax. The Model Objects must have at least one method on the prototype. (Formatters work really well for this.)
+
+    > Take a blog domain example and creating a new Post, instead of plainly taking the JSON response of the newly created Post from the Rails app and appending it to the DOM, you would instead create a Post prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
+
 1.  Must render at least one index page (index resource - 'list of things') via JavaScript and an Active Model Serialization JSON Backend.
 
     > For example: in a blog domain with users and posts, you might display the index of the user's posts on the users show page, fetching the posts via a AJAX GET request, with the backend rendering the posts in JSON format, and then appending the posts to the page.
 
 1.  Must render at least one show page (show resource - 'one specific thing') via JavaScript and an Active Model Serialization JSON Backend.
+    
+    > For example, in the blog domain, you might allow a user to view a post, using AJAX to fetch the post JSON and render it through JavaScript onto the page.
 
-    > Borrowing from the previous blog domain example, you might allow a user to sift through the posts by clicking a 'Next' button on the posts show page, with the next post being fetched via AJAX and rendered through JavaScript.
-
-1.  Your Rails application must dynamically render on the page at least one 'has-many' relationship through JSON using JavaScript.
+1.  Your Rails application must dynamically render on the page at least one serialized 'has_many' relationship through JSON using JavaScript.
 
     > In the previous blog domain example, if each of the posts has many comments, you could render those comments as well on that post's show page.
 
-1.  Must use your Rails application and JavaScript to render a form for creating a resource that submits dynamically.
+1.  Must use your Rails application to render a form for creating a resource that is submitted dynamically and displayed through JavaScript and JSON without a page refresh.
 
     > In the blog domain example, a user might be able to add a comment to a post, and the comment would be serialized, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals can help out a lot with this).
-
-1.  Must translate the JSON responses into JavaScript Model Objects using either ES6 class or constructor syntax. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
-    > Borrowing from the blog domain example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
 
 ## <a id="instructions">Instructions</a>
 
@@ -68,7 +73,14 @@ What won't happen:
 4. Before Submitting: Prepare a video demo (narration helps!) describing how a user would interact with your Rails with JavaScript app.
    > Make sure to highlight the dynamic features that you added to your Rails application. After you create your demo, publish it on a service like [YouTube](https://www.youtube.com/) or [Google Drive](https://www.google.com/drive/).
 5. Make sure to write a blog post about your project and the process.
-6. To Submit: On Learn, submit links to the GitHub repository for your app, your video demo (not your 30-minute coding session), and your blog post each to the corresponding textbox in the right, and hit "I'm done" to wrap it up.
+
+6. To Submit: On Learn, submit links to the GitHub repository for your app, your video demo (not your 30-minute coding session), and your blog post each to the corresponding textbox in the right rail, and hit "I'm done" to wrap it up.
+
+## <a id="support">Project Support</a>
+
+Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
+
+You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads).
 
 ## <a id="success">Practicing for Success on Learn</a>
 
